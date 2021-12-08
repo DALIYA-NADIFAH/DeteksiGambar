@@ -1,2 +1,2 @@
-# DeteksiGambar
-deteksi gambar
+# cbir-flask
+ cbir-flask

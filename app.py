@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = './static/uploads/'
 model = load_model('pepaya_lidahbuaya_class_model.h5')
 
-class_dict = {0: 'Pepaya', 1: 'Lidahbuaya'}
+class_dict = {0: 'Lidahbuaya', 1: 'Pepaya'}
 
 def predict_label(img_path):
     query = cv2.imread(img_path)
